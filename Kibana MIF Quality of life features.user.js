@@ -18,7 +18,7 @@ var tds = [];
 setVars();
 
 
-if (!document.URL.includes("https://gms-prod-kibana.logistics.com/s/cloudops/app/canvas#/workpad/workpad-1641f249-90d4-4a4f-8209-3e6e5c78fa2a/page/1")) {
+if (!document.URL.includes("https://gms-prod-kibana.logistics.com/s/cloudops/app/canvas#/workpad/workpad-596a6ae3-4105-4082-836a-19a5205dba9d/page/1")) {
     throw("Not the right page");
 }
 
@@ -119,7 +119,11 @@ function setVars() {
         "DB1_PROD_MIF_home-prod.dbsubad1.homevcn.oraclevcn.com",
         "DB1_PROD_MIF_dbli-mif-prd-01_us-central1_dbli",
         "DB1_FTRM_PROD_MIF_masrpp2dbp01.subprdad1back.vcnprd.oraclevcn.com",
-        "DB1_PROD_MIF_psun-mif-prd-01_us-west1_psun-prd"];
+        "DB1_PROD_MIF_psun-mif-prd-01_us-west1_psun-prd",
+        "DB1_MIF_vv-manhdbprod.vv.com",
+        "DB_AWS_AOMIF_ec2-50-17-45-221_compute-1_amazonaws_com",
+        "DB1_PROD_MIF_xbor-ryn-prod.dbsubad1.xborvcn.oraclevcn.com",
+        "DB1_ROANOKE_PROD_MIF_orvs-prod.db2.manhvcn.oraclevcn.com"];
 
 
 
@@ -177,7 +181,11 @@ function setVars() {
         "https://home-prod-mif-vm1.appsubad1.homevcn.oraclevcn.com:8074/ILS/ILSHelpers/main.jsp",
         "https://dbli-prd-mif.logistics.com/ILS/ILSHelpers/main.jsp",
         "https://wms-mif-ftrm.showroomprive.com/web/ILS/ILSHelpers/main.jsp",
-        "https://psun-prod-mif.logistics.com/ILS/ILSHelpers/main.jsp"];
+        "https://psun-prod-mif.logistics.com/ILS/ILSHelpers/main.jsp",
+        "http://10.109.215.3:8072/ILS/ILSHelpers/main.jsp",
+        "https://michp.mif.manh.com/web/ILS/ILSHelpers/main.jsp",
+        "https://xbry01mifprod.xbfulfillment.com:8074/ILS/ILSHelpers/main.jsp",
+        "https://orvs-mif-prod.orvis.com/"];
 
     for(var i = 0; i < hostnames.length; i++){
         obj[hostnames[i]] = MIFlinks[i];
