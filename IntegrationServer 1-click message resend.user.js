@@ -2,8 +2,8 @@
 // @name         IntegrationServer 1-click message resend
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @description  Adds buttons to the IntegrationServer UI.
+// @author       Frosty
 // @match      *://*/ILS/Filter/TranLogList.jsp?objectType=TRANLOG
 // @match      *://*/web/ILS/Filter/TranLogList.jsp?objectType=TRANLOG
 // @match      *://*/web/ILS/Filter/TranLogList.jsp
