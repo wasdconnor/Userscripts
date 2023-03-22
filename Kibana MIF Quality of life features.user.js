@@ -19,7 +19,7 @@ setVars();
 
 
 if (!document.URL.includes("https://gms-prod-kibana.logistics.com/s/cloudops/app/canvas#/workpad/workpad-596a6ae3-4105-4082-836a-19a5205dba9d/page/1")) {
-    throw("Not the right page");
+    throw("Not the right page, I saw: " + document.URL);
 }
 
 
@@ -124,14 +124,15 @@ function setVars() {
         "DB_AWS_AOMIF_ec2-50-17-45-221_compute-1_amazonaws_com",
         "DB1_PROD_MIF_xbor-ryn-prod.dbsubad1.xborvcn.oraclevcn.com",
         "DB1_ROANOKE_PROD_MIF_orvs-prod.db2.manhvcn.oraclevcn.com",
-        "DB1_2017_PROD_MIF_masrpp1dbp1.subprdad1back.vcnprd.oraclevcn.com"];
+        "DB1_2017_PROD_MIF_masrpp1dbp1.subprdad1back.vcnprd.oraclevcn.com",
+        "DB1_PROD_MIF_jcan-mif-prd-01.asia-northeast1.jcan-prd"];
 
 
 
-    
+
     //Here are all the links to each MIF node. If you add another entry to this list, it has to be the IP_address:8072 for secure, and IP_address:5555 for insecure. This is because if you use port 7777,
     //it will not allow you to save the passsword in Google Chrome. There is some error with the Certificate on the website. For some reason, 8072 works though :)
-    MIFlinks = [ 
+    MIFlinks = [
         "http://35.209.196.3:8072/ILS/ILSHelpers/main.jsp",//"https://cago-mif-prd-vm1.us-central1-a.c.cago-mif-prd-01.internal:7777/",
         "http://10.108.212.11:5555/web/ILS/ILSHelpers/main.jsp",//"https://prod-usa-mif1.papps1.manhvcn.oraclevcn.com:7777/web/ILS/ILSHelpers/main.jsp",
         "http://10.108.212.11:5555/web/ILS/ILSHelpers/main.jsp",//https://prod-usa-mif1.papps1.manhvcn.oraclevcn.com:7777/web/ILS/ILSHelpers/main.jsp",
@@ -190,7 +191,8 @@ function setVars() {
         "https://michp1.mif.manh.com/web/ILS/ILSHelpers/main.jsp",//MICH Non-GCP. Can't find the NAT IP for this...
         "http://10.109.35.238:8072/ILS/ILSHelpers/main.jsp",//"https://xbry01mifprod.xbfulfillment.com:8074/ILS/ILSHelpers/main.jsp",
         "http://10.109.238.10:5555/web/ILS/ILSHelpers/main.jsp",//"http://orvs-mif1-prod.apps2.manhvcn.oraclevcn.com:5555/web/ILS/ILSHelpers/main.jsp",
-        "http://10.22.79.7:5555/web/ILS/ILSHelpers/main.jsp"];//"http://masrpp1apmifp01.subprdad1front.vcnprd.oraclevcn.com:5555/"];
+        "http://10.22.79.7:5555/web/ILS/ILSHelpers/main.jsp",//"http://masrpp1apmifp01.subprdad1front.vcnprd.oraclevcn.com:5555/"];
+        "http://35.213.6.51:8072/ILS/ILSHelpers/main.jsp"]; //JCAN
 
     for(var i = 0; i < hostnames.length; i++){
         obj[hostnames[i]] = MIFlinks[i];
