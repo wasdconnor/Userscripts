@@ -125,7 +125,10 @@ function setVars() {
         "DB1_PROD_MIF_xbor-ryn-prod.dbsubad1.xborvcn.oraclevcn.com",
         "DB1_ROANOKE_PROD_MIF_orvs-prod.db2.manhvcn.oraclevcn.com",
         "DB1_2017_PROD_MIF_masrpp1dbp1.subprdad1back.vcnprd.oraclevcn.com",
-        "DB1_PROD_MIF_jcan-mif-prd-01.asia-northeast1.jcan-prd"];
+        "DB1_PROD_MIF_jcan-mif-prd-01.asia-northeast1.jcan-prd",
+        "DB1_PROD_MIF_etnc-mif-prd-01_us-east1_etnc-prod",
+        "DB1_PROD_MIF_cago-mif-prd-01.us-central1.cago-prd",
+        "DB1_PROD_MIF_twgl-mif-prd-01:australia-southeast1:twgl-prd"];
 
 
 
@@ -192,7 +195,11 @@ function setVars() {
         "http://10.109.35.238:8072/ILS/ILSHelpers/main.jsp",//"https://xbry01mifprod.xbfulfillment.com:8074/ILS/ILSHelpers/main.jsp",
         "http://10.109.238.10:5555/web/ILS/ILSHelpers/main.jsp",//"http://orvs-mif1-prod.apps2.manhvcn.oraclevcn.com:5555/web/ILS/ILSHelpers/main.jsp",
         "http://10.22.79.7:5555/web/ILS/ILSHelpers/main.jsp",//"http://masrpp1apmifp01.subprdad1front.vcnprd.oraclevcn.com:5555/"];
-        "http://35.213.6.51:8072/ILS/ILSHelpers/main.jsp"]; //JCAN
+        "http://35.213.6.51:8072/ILS/ILSHelpers/main.jsp", //JCAN
+        "http://35.211.123.203:8072/ILS/ILSHelpers/main.jsp",
+        "https://35.209.196.3:8074/ILS/ILSHelpers/main.jsp",//DB1_PROD_MIF_cago-mif-prd-01.us-central1.cago-prd
+        "http://35.213.207.80:8072/ILS/ILSHelpers/main.jsp"];
+
 
     for(var i = 0; i < hostnames.length; i++){
         obj[hostnames[i]] = MIFlinks[i];
