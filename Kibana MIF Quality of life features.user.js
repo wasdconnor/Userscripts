@@ -128,7 +128,16 @@ function setVars() {
         "DB1_PROD_MIF_jcan-mif-prd-01.asia-northeast1.jcan-prd",
         "DB1_PROD_MIF_etnc-mif-prd-01_us-east1_etnc-prod",
         "DB1_PROD_MIF_cago-mif-prd-01.us-central1.cago-prd",
-        "DB1_PROD_MIF_twgl-mif-prd-01:australia-southeast1:twgl-prd"];
+        "DB1_PROD_MIF_twgl-mif-prd-01:australia-southeast1:twgl-prd",
+        "DB1_CHAH_PROD_MIF_card-mif-prod-01_us-central1_card-prod",
+        "DB1_PROD_MIF_eddb-mif-prd-01_us-east1_eddb-prd",
+        "DB1_PROD_MIF_mich-mif-prd-01_us-west1_mich-prod",
+        "DB1_PROD_MIF_zman-mif-prd-01_europe-west4_zman-prd-db",
+        "DB1_PROD_MIF_gxol-mif-prd-01.us-east4.gxol-prd",
+        "DB_PROD_AOMIF_brnb-prod.db1.prodvcn2.oraclevcn.com",
+        "DB1_PROD_MIF_math-prod-new.dbsubad1.mathvcn.oraclevcn.com",
+        "DB1_PROD_MIF_amsc-mif-prd-01_us-east1_amsc-prod",
+        "DB1_PROD_MIF_timh-mif-prd-01_us-east1_timh-prd"];
 
 
 
@@ -197,8 +206,19 @@ function setVars() {
         "http://10.22.79.7:5555/web/ILS/ILSHelpers/main.jsp",//"http://masrpp1apmifp01.subprdad1front.vcnprd.oraclevcn.com:5555/"];
         "http://35.213.6.51:8072/ILS/ILSHelpers/main.jsp", //JCAN
         "http://35.211.123.203:8072/ILS/ILSHelpers/main.jsp",
-        "https://35.209.196.3:8074/ILS/ILSHelpers/main.jsp",//DB1_PROD_MIF_cago-mif-prd-01.us-central1.cago-prd
-        "http://35.213.207.80:8072/ILS/ILSHelpers/main.jsp"];
+        "http://35.209.196.3:8072/ILS/ILSHelpers/main.jsp",//DB1_PROD_MIF_cago-mif-prd-01.us-central1.cago-prd
+        "http://35.213.207.80:8072/ILS/ILSHelpers/main.jsp",
+        "http://35.206.65.117:8072/ILS/ILSHelpers/main.jsp",//DB1_CHAH_PROD_MIF_card-mif-prod-01_us-central1_card-prod
+        "http://35.211.176.167:8072/ILS/ILSHelpers/main.jsp",//DB1_PROD_MIF_eddb-mif-prd-01_us-east1_eddb-prd
+        "http://35.212.252.117:8072/ILS/ILSHelpers/main.jsp", // MICH PROD GCP
+        "http://35.214.239.223:8072/ILS/ILSHelpers/main.jsp",//ZMAN
+        "http://35.212.82.216:8072/ILS/ILSHelpers/main.jsp",//GXOL
+        "https://10.109.22.20:7777/web/ILS/ILSHelpers/main.jsp",//BRNB
+        "http://10.108.139.4:5555/web/ILS/ILSHelpers/main.jsp", //MATH
+        "http://35.211.49.17:8072/ILS/ILSHelpers/main.jsp",//AMSC
+        "http://35.211.139.232:8072/ILS/ILSHelpers/main.jsp"]; //TIMH
+
+
 
 
     for(var i = 0; i < hostnames.length; i++){
