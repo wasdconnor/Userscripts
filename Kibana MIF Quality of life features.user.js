@@ -137,7 +137,12 @@ function setVars() {
         "DB_PROD_AOMIF_brnb-prod.db1.prodvcn2.oraclevcn.com",
         "DB1_PROD_MIF_math-prod-new.dbsubad1.mathvcn.oraclevcn.com",
         "DB1_PROD_MIF_amsc-mif-prd-01_us-east1_amsc-prod",
-        "DB1_PROD_MIF_timh-mif-prd-01_us-east1_timh-prd"];
+        "DB1_PROD_MIF_timh-mif-prd-01_us-east1_timh-prd",
+        "DB1_PROD_MIF_hlth-mif-prd-01_us-central1_hlth-prod",
+        "DB1_PROD_MIF_sbhi-prod.dbsubad1.sbhivcn.oraclevcn.com",
+        "DB1_PROD_MIF_trrd-mif-prd-01.us-central1.trrd-mif-prd",
+        "DB1_PROD_MIF_stsh-mif-prd-01.us-east1.stsh-prod",
+        "DB1_PROD_MIF_lpls-mif-prd-01.us-west1.lpls-prd"];
 
 
 
@@ -216,7 +221,12 @@ function setVars() {
         "https://10.109.22.20:7777/web/ILS/ILSHelpers/main.jsp",//BRNB
         "http://10.108.139.4:5555/web/ILS/ILSHelpers/main.jsp", //MATH
         "http://35.211.49.17:8072/ILS/ILSHelpers/main.jsp",//AMSC
-        "http://35.211.139.232:8072/ILS/ILSHelpers/main.jsp"]; //TIMH
+        "http://35.211.139.232:8072/ILS/ILSHelpers/main.jsp",//TIMH
+        "http://35.208.73.161:8072/ILS/ILSHelpers/main.jsp",//HLTH
+        "http://10.108.237.4:8072/ILS/ILSHelpers/main.jsp", //SBHI
+        "http://35.209.40.102:8072/ILS/ILSHelpers/main.jsp", // TRRD
+        "http://35.207.42.53:8072/ILS/ILSHelpers/main.jsp", // STSH GCP
+        "https://35.212.171.206:8074/ILS/ILSHelpers/main.jsp"];
 
 
 
