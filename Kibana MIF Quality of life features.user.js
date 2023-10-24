@@ -142,7 +142,8 @@ function setVars() {
         "DB1_PROD_MIF_sbhi-prod.dbsubad1.sbhivcn.oraclevcn.com",
         "DB1_PROD_MIF_trrd-mif-prd-01.us-central1.trrd-mif-prd",
         "DB1_PROD_MIF_stsh-mif-prd-01.us-east1.stsh-prod",
-        "DB1_PROD_MIF_lpls-mif-prd-01.us-west1.lpls-prd"];
+        "DB1_PROD_MIF_lpls-mif-prd-01.us-west1.lpls-prd",
+        "DB1_PROD_MIF_rchl-mif-prd-01.us-central1.rchl-prd"];
 
 
 
@@ -226,7 +227,8 @@ function setVars() {
         "http://10.108.237.4:8072/ILS/ILSHelpers/main.jsp", //SBHI
         "http://35.209.40.102:8072/ILS/ILSHelpers/main.jsp", // TRRD
         "http://35.207.42.53:8072/ILS/ILSHelpers/main.jsp", // STSH GCP
-        "https://35.212.171.206:8074/ILS/ILSHelpers/main.jsp"];
+        "https://35.212.171.206:8074/ILS/ILSHelpers/main.jsp", // LPLS
+        "http://35.209.20.43:8072/ILS/ILSHelpers/main.jsp"]; // RCHL
 
 
 
